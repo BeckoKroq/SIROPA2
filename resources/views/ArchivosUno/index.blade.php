@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="{{ app()->getLocale() }}">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Planeación y Programación</title>
+	<link rel="stylesheet" type="text/css" href="{{asset('My_Desing/css/FaceOne.css')}}">
+	<!--<link rel="stylesheet" type="text/css" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome.css">-->
+    <link rel="stylesheet" type="text/css" href="{{asset('My_Desing/font-awesome/css/font-awesome.min.css')}}">
+	<!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+    <script src="{{asset('My_Desing/jquery/dist/jquery.min.js')}}"></script>
+    <script src="{{asset('My_Desing/main.js')}}"></script>
+</head>
+<body background="{{asset('My_Desing/images/wallpaper2you_27497.jpg')}}">
+	<div class="wrap">
+		<ul class="tabs">
+    	  <li><a href="#table1"><span class="fa fa-file"></span><span class="tab-text">A1</span></a></li>
+          <li><a href="#table2"><span class="fa fa-file"></span><span class="tab-text">A2</span></a></li>
+          <li><a href="#table3"><span class="fa fa-file"></span><span class="tab-text">A3</span></a></li>
+          <li><a href="#table4"><span class="fa fa-file"></span><span class="tab-text">A4</span></a></li>
+    	  <li><a href="#table5"><span class="fa fa-file"></span><span class="tab-text">A5</span></a></li>
+          <li><a href="#table6"><span class="fa fa-file"></span><span class="tab-text">A6</span></a></li>
+          <li><a href="#table7"><span class="fa fa-file"></span><span class="tab-text">A7</span></a></li>
+          <li><a href="#table8"><span class="fa fa-file"></span><span class="tab-text">A8</span></a></li>
+          <li><a href="#table9"><span class="fa fa-file"></span><span class="tab-text">A9</span></a></li>
+          <li><a href="#table10"><span class="fa fa-file"></span><span class="tab-text">A10</span></a></li>
+          <li><a href="#table11"><span class="fa fa-file"></span><span class="tab-text">A11</span></a></li>
+          <li><a href="#table12"><span class="fa fa-file"></span><span class="tab-text">A12</span></a></li>
+          <li><a href="#table13"><span class="fa fa-file"></span><span class="tab-text">A13</span></a></li>
+		</ul>
+    <div class="secciones">
+      <article id="table1" class="formulario">
+        <div>
+            <h1>Oficios de aprobación con anexos tecnicos</h1>
+        </div class="radio">
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <?php $Nombre = 'A1F1'?>
+        <input type="radio" name="arch1" id="active">
+        <label for="active">Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table2">
+        <div>
+            <h1>Cédula de información básica</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table3">
+        <div>
+            <h1>Acta constitutiva de información de comité</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table4">
+        <div>
+            <h1>Carta de aceptación de la obra</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table5">
+        <div>
+            <h1>Proycto ejecutivo</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table6">
+        <div>
+            <h1>Presupuesto base</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table7">
+        <div>
+            <h1>Factivilidad de obra</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table8">
+        <div>
+            <h1>Estudios(Mecánica de suelos, Estructural, Topográficos)</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table9">
+        <div>
+            <h1>Permiso de obra</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table10">
+        <div>
+            <h1>Impacto ambiental</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table11">
+        <div>
+            <h1>Uso de suelo</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table12">
+        <div>
+            <h1>Tenencia de la tierra</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+    <div class="secciones">
+      <article id="table13">
+        <div>
+            <h1>Conceción de la obra</h1>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <label>Archivo 1</label>
+        <input type="radio" name="">
+        <label>Aplica</label>
+        <input type="radio" name="">
+        <label>No Aplica</label>
+        <input type="file" name="">
+        <input type="radio" name="">
+        <label>Pasa</label>
+        <input type="radio" name="">
+        <label>No Pasa</label>
+        <textarea>Ingrese un texto</textarea>
+      </article>
+    </div>
+		
+	</div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

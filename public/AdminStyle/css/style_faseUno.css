@@ -1,0 +1,780 @@
+.btn-file {
+        position: relative;
+        overflow: hidden;
+    }
+    .btn-file input[type=file]{
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100%;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+
+    }
+    #popup_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -840px;
+    }
+    #popup_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+    }
+    #popup2_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -780px;
+    }
+    #popup2_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup2_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup2_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup3_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -780px;
+    }
+    #popup3_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup3_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup3_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup4_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -710px;
+    }
+    #popup4_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup4_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup4_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup5_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -810px;
+    }
+    #popup5_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup5_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup5_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup6_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -810px;
+    }
+    #popup6_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup6_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup6_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup7_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -740px;
+    }
+    #popup7_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup7_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup7_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup8_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -740px;
+    }
+    #popup8_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup8_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup8_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup9_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -840px;
+    }
+    #popup9_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup9_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup9_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup10_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -775px;
+    }
+    #popup10_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup10_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup10_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup11_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -810px;
+    }
+    #popup11_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup11_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup11_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup12_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -810px;
+    }
+    #popup12_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup12_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup12_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup13_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -710px;
+    }
+    #popup13_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup13_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup13_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup14_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -710px;
+    }
+    #popup14_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup14_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup14_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup15_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -810px;
+    }
+    #popup15_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup15_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup15_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup16_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -710px;
+    }
+    #popup16_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup16_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup16_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup17_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -710px;
+    }
+    #popup17_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup17_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup17_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup18_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -740px;
+    }
+    #popup18_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup18_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup18_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup19_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -740px;
+    }
+    #popup19_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup19_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup19_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
+   #popup20_f1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -740px;
+    }
+    #popup20_f1:target {
+       visibility:visible;
+       opacity: 1;
+       background-color: rgba(0,0,0,0.8);
+       position: fixed;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:0;
+       z-index: 999;
+       transition:all 1s;
+    }
+    .popup20_f1-contenedor {
+       position: relative;
+       margin:7% auto;
+       padding:30px 50px;
+       background-color: #fafafa;
+       color:#333;
+       border-radius: 3px;
+       width:50%;
+    }
+    a.popup20_f1-cerrar {
+       position: absolute;
+       top:3px;
+       right:3px;
+       background-color: #333;
+       padding:7px 10px;
+       font-size: 20px;
+       text-decoration: none;
+       line-height: 1;
+       color:#fff;
+   }
